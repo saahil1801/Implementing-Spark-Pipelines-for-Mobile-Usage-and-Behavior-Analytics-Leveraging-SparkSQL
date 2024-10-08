@@ -1,0 +1,99 @@
+2024-10-05 02:10:27,991 - my_app - INFO - Starting data ingestion
+2024-10-05 02:10:28,512 - my_app - INFO - Loaded batch data from data/user_behavior_dataset.csv
+2024-10-05 02:10:28,512 - my_app - INFO - Starting data preprocessing
+2024-10-05 02:10:28,540 - my_app - INFO - Dropped rows with missing values
+2024-10-05 02:10:28,600 - my_app - INFO - Renamed columns and selected relevant features
+2024-10-05 02:10:28,600 - my_app - INFO - Starting feature engineering
+2024-10-05 02:10:30,647 - my_app - INFO - Completed feature engineering
+2024-10-05 02:10:30,648 - my_app - INFO - Starting model training
+2024-10-05 02:10:30,655 - my_app - INFO - Split data into training and test sets
+2024-10-05 02:10:31,802 - my_app - INFO - Trained Logistic Regression model
+2024-10-05 02:10:32,349 - my_app - INFO - Saved model to models/user_behavior_model
+2024-10-05 02:10:32,349 - my_app - INFO - Starting model evaluation
+2024-10-05 02:10:32,509 - my_app - INFO - Model Accuracy: 0.9863945578231292
+2024-10-05 02:10:32,606 - my_app - INFO - Model F1 Score: 0.9863881158524016
+2024-10-05 02:10:32,606 - my_app - INFO - Final Model Accuracy: 0.9863945578231292
+2024-10-05 02:10:32,606 - my_app - INFO - Final Model F1 Score: 0.9863881158524016
+2024-10-05 02:10:32,957 - my_app - INFO - Process completed successfully
+2024-10-05 02:25:06,708 - my_app - INFO - Starting data ingestion
+2024-10-05 02:25:07,237 - my_app - INFO - Loaded batch data from data/user_behavior_dataset.csv
+2024-10-05 02:25:07,237 - my_app - INFO - Starting data preprocessing
+2024-10-05 02:25:07,264 - my_app - INFO - Dropped rows with missing values
+2024-10-05 02:25:07,324 - my_app - INFO - Renamed columns and selected relevant features
+2024-10-05 02:25:07,325 - my_app - INFO - Starting feature engineering
+2024-10-05 02:25:09,344 - my_app - INFO - Completed feature engineering
+2024-10-05 02:25:09,344 - my_app - INFO - Starting model training
+2024-10-05 02:25:09,350 - my_app - INFO - Split data into training and test sets
+2024-10-05 02:25:10,479 - my_app - INFO - Trained Logistic Regression model
+2024-10-05 02:25:11,003 - my_app - INFO - Saved model to models/user_behavior_model
+2024-10-05 02:25:11,003 - my_app - INFO - Starting model evaluation
+2024-10-05 02:25:11,154 - my_app - INFO - Model Accuracy: 0.9863945578231292
+2024-10-05 02:25:11,233 - my_app - INFO - Model F1 Score: 0.9863881158524016
+2024-10-05 02:25:11,233 - my_app - INFO - Final Model Accuracy: 0.9863945578231292
+2024-10-05 02:25:11,233 - my_app - INFO - Final Model F1 Score: 0.9863881158524016
+2024-10-05 02:25:11,675 - my_app - INFO - Process completed successfully
+2024-10-05 02:28:46,052 - my_app - INFO - Starting data ingestion
+2024-10-05 02:28:46,574 - my_app - INFO - Loaded batch data from data/user_behavior_dataset.csv
+2024-10-05 02:28:46,574 - my_app - INFO - Starting data preprocessing
+2024-10-05 02:28:46,605 - my_app - INFO - Dropped rows with missing values
+2024-10-05 02:28:46,666 - my_app - INFO - Renamed columns and selected relevant features
+2024-10-05 02:28:46,791 - my_app - INFO - Cached preprocessed data
+2024-10-05 02:28:46,792 - my_app - INFO - Starting feature engineering
+2024-10-05 02:28:48,768 - my_app - INFO - Completed feature engineering
+2024-10-05 02:28:48,779 - my_app - INFO - Cached featurized data
+2024-10-05 02:28:48,779 - my_app - INFO - Starting model training
+2024-10-05 02:28:48,786 - my_app - INFO - Split data into training and test sets
+2024-10-05 02:28:49,878 - my_app - INFO - Trained Logistic Regression model
+2024-10-05 02:28:50,537 - my_app - INFO - Saved model to models/user_behavior_model
+2024-10-05 02:28:50,538 - my_app - INFO - UnCached Both the data
+2024-10-05 02:28:50,538 - my_app - INFO - Starting model evaluation
+2024-10-05 02:28:50,708 - my_app - INFO - Model Accuracy: 0.9863945578231292
+2024-10-05 02:28:50,785 - my_app - INFO - Model F1 Score: 0.9863881158524016
+2024-10-05 02:28:50,785 - my_app - INFO - Final Model Accuracy: 0.9863945578231292
+2024-10-05 02:28:50,785 - my_app - INFO - Final Model F1 Score: 0.9863881158524016
+2024-10-05 02:28:51,017 - my_app - INFO - Process completed successfully
+2024-10-05 02:34:06,149 - my_app - INFO - Starting data ingestion
+2024-10-05 02:34:06,642 - my_app - INFO - Loaded batch data from data/user_behavior_dataset.csv
+2024-10-05 02:34:06,642 - my_app - INFO - Starting data preprocessing
+2024-10-05 02:34:07,611 - my_app - INFO - Total rows with null 'Gender': 0
+2024-10-05 02:34:07,624 - my_app - INFO - Dropped rows with missing values
+2024-10-05 02:34:07,674 - my_app - INFO - Renamed columns and selected relevant features
+2024-10-05 02:34:07,705 - my_app - INFO - Cached preprocessed data
+2024-10-05 02:34:07,705 - my_app - INFO - Starting feature engineering
+2024-10-05 02:34:09,215 - my_app - INFO - Completed feature engineering
+2024-10-05 02:34:09,230 - my_app - INFO - Cached featurized data
+2024-10-05 02:34:09,230 - my_app - INFO - Starting model training
+2024-10-05 02:34:09,236 - my_app - INFO - Split data into training and test sets
+2024-10-05 02:34:12,110 - my_app - INFO - Trained Logistic Regression model
+2024-10-05 02:34:12,658 - my_app - INFO - Saved model to models/user_behavior_model
+2024-10-05 02:34:12,661 - my_app - INFO - UnCached Both the data
+2024-10-05 02:34:12,662 - my_app - INFO - Starting model evaluation
+2024-10-05 02:34:12,838 - my_app - INFO - Model Accuracy: 0.9931972789115646
+2024-10-05 02:34:12,927 - my_app - INFO - Model F1 Score: 0.9931972789115646
+2024-10-05 02:34:12,927 - my_app - INFO - Final Model Accuracy: 0.9931972789115646
+2024-10-05 02:34:12,927 - my_app - INFO - Final Model F1 Score: 0.9931972789115646
+2024-10-05 02:34:13,626 - my_app - INFO - Process completed successfully
+2024-10-05 02:38:08,995 - my_app - INFO - Starting data ingestion
+2024-10-05 02:38:09,537 - my_app - INFO - Loaded batch data from data/user_behavior_dataset.csv
+2024-10-05 02:38:09,537 - my_app - INFO - Starting data preprocessing
+2024-10-05 02:38:10,503 - my_app - INFO - Total rows with null 'Gender': 0
+2024-10-05 02:38:10,516 - my_app - INFO - Dropped rows with missing values
+2024-10-05 02:38:10,570 - my_app - INFO - Renamed columns and selected relevant features
+2024-10-05 02:38:10,603 - my_app - INFO - Cached preprocessed data
+2024-10-05 02:38:10,661 - my_app - INFO - Query result for average app usage per OS:
+2024-10-05 02:38:11,249 - my_app - INFO - OS: iOS, AvgAppUsage: 282.02
+2024-10-05 02:38:11,249 - my_app - INFO - OS: Android, AvgAppUsage: 268.26
+2024-10-05 02:38:11,640 - my_app - INFO - Starting feature engineering
+2024-10-05 02:38:12,489 - my_app - INFO - Completed feature engineering
+2024-10-05 02:38:12,505 - my_app - INFO - Cached featurized data
+2024-10-05 02:38:12,505 - my_app - INFO - Starting model training
+2024-10-05 02:38:12,515 - my_app - INFO - Split data into training and test sets
+2024-10-05 02:38:13,572 - my_app - INFO - Trained Logistic Regression model
+2024-10-05 02:38:14,306 - my_app - INFO - Saved model to models/user_behavior_model
+2024-10-05 02:38:14,308 - my_app - INFO - UnCached Both the data
+2024-10-05 02:38:14,309 - my_app - INFO - Starting model evaluation
+2024-10-05 02:38:14,494 - my_app - INFO - Model Accuracy: 1.0
+2024-10-05 02:38:14,588 - my_app - INFO - Model F1 Score: 1.0
+2024-10-05 02:38:14,588 - my_app - INFO - Final Model Accuracy: 1.0
+2024-10-05 02:38:14,588 - my_app - INFO - Final Model F1 Score: 1.0
+2024-10-05 02:38:15,521 - my_app - INFO - Process completed successfully

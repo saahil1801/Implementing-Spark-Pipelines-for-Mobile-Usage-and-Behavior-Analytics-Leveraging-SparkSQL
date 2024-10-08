@@ -1,0 +1,9 @@
+data:
+  batch_data_path: "data/user_behavior_dataset.csv"
+
+model:
+  model_path: "models/user_behavior_model"
+  
+spark:
+  master: "local[*]"
+  app_name: "SparkMLProject"
