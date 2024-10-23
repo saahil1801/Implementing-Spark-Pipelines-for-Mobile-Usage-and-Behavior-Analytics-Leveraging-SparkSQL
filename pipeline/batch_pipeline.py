@@ -14,10 +14,16 @@ logger=setup_logging()
 def run_batch_pipeline():
     config = load_config()
     spark = SparkSession.builder \
-        .appName(config['spark']['app_name']) \
-        .master(config['spark']['master']) \
-        .config("spark.sql.shuffle.partitions", "5") \
-        .getOrCreate()
+    .appName(config['spark']['app_name']) \
+    .master(config['spark']['master']) \
+    .config("spark.sql.shuffle.partitions", "5") \
+    .config("spark.driver.memory", "8g") \
+    .config("spark.executor.memory", "4g") \
+    .config("spark.executor.cores", "4") \
+    .config("spark.executor.instances", "2") \
+    .config("spark.driver.cores", "2") \
+    .config("spark.executor.memoryOverhead", "512m") \
+    .getOrCreate()
     
     try:
         logger.info("Starting data ingestion")
